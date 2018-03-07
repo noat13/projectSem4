@@ -677,7 +677,7 @@ public class BillController {
 
 					// Convert Workbook To Pdf
 					pathToFileTmp = Utils.converterToPDF(pathToFileTmp);
-					File filePdf = new File(pathToFileTmp);
+					//File filePdf = new File(pathToFileTmp);
 					byte[] ret = FileUtils.readFileToByteArray(filePdf);
 					fileExcel.delete();
 					filePdf.delete();
