@@ -168,8 +168,6 @@ public class BillController {
 	@InitBinder
 	public void initBinderData(WebDataBinder binder, Locale locale, HttpServletRequest request) {
 
-		// Binder Date
-		binder.setAutoGrowCollectionLimit(10000);
 		// The date format to parse or output your dates
 		SimpleDateFormat dateFormat = new SimpleDateFormat((String) request.getSession().getAttribute("formatDate"));
 		// Create a new CustomDateEditor
