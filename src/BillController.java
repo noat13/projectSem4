@@ -649,7 +649,6 @@ public class BillController {
 				createCell2(workbook, row, item[3], 5, cellStyleF7, cellStyleDate);
 				createCell2(workbook, row, item[4], 6, cellStyleG7, cellStyleDate);
 
-				amountMonth = amountMonth.add(new BigDecimal(item[1] == null ? "0" : item[1].toString()));
 				amountInYear = amountInYear.add(new BigDecimal(item[2] == null ? "0" : item[2].toString()));
 				amountYearDate = amountYearDate.add(new BigDecimal(item[3] == null ? "0" : item[3].toString()));
 				amountEstimate = amountEstimate.add(new BigDecimal(item[4] == null ? "0" : item[4].toString()));
