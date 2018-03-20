@@ -1,0 +1,58 @@
+**Changelog:**
+
+**Version 1.4.5:**
+
+- Updated Bootstrap to version 3.3.7 (both css and js file)
+- Updated font awesome icon to version 4.7.0 (font files and css file)
+
+**Version 1.4:**
+
+- Updated bootstrap to latest version 3.3.6.
+- Updated font awesome icons to version 4.6.1.
+- Updated isotope to version 2.2.2.
+
+**Version 1.3:**
+
+- Updated bootstrap css and js files from 3.3.4 to 3.3.50.
+- Updated jquery from 1.11.2 to 1.11.3.
+- Updated HTML5Shiv from 3.7.2 to 3.7.3.
+- Updated Flexslider to latest 2.5.0.
+- FlexSlider bug fix. Added class "flexslider" along with the classes "flexslider-testimonial" and "flexslider-recent". (index.html)
+- Updated prettyPhoto to version 3.1.6. 
+- Updated isotope to 2.2.0.
+- Updated revolution slider to 4.6.4. Replaced jquery.themepunch.plugins.min.js with jquery.themepunch.tools.min.js (index.html).
+
+**Version 1.2.5:**
+
+- Updated Bootstrap to version 3.3.2.
+- Updated Font Awesome CSS to version 4.3.0.
+- Updated jQuery to version 1.11.2.
+- Updated HTML5Shiv to version 3.7.2.
+- Updated Fonts Folder to version 4.3.0.
+- Updated Isotope jQuery Plugin to version 2.1.0.
+- Updated FlexSlider jQuery Plugin to version 2.3.0.
+
+**Version 1.2:**
+
+- Updated plugin files of revolution slider.
+- Fix bug from cart dropdown in all html files. (All html files, style.css, less-style.css, custom.js) 
+
+**Version 1.1.1:**
+
+- Removed gallery section from home page. 
+- Compressed some images.
+- Increased martin top to the foot section.
+- Image update in feature block in footer section.
+
+**Version 1.1:**
+
+- Added charset meta utf-8 in all html files.
+- Recent dishes slider paragraph is hidden in small devices.
+- Changed recent dishes slider class in index file. (index.html, style.css)
+- Bug fix from recent dishes slider navigation. (style.css)
+- Updated max-width for blocks in small devices. (style.css)
+- Updated max-width for new dishes. (style.css)
+
+**Version 1.0:**
+
+- Initial Release

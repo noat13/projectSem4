@@ -1,0 +1,13 @@
+**Credits:**
+
+- Bootstrap - http://getbootstrap.com
+- jQuery - http://jquery.com
+- HTML5Shiv - @afarkas @jdalton @jon_neal @rem
+- Respond - Authors & copyright (c) 2012: Scott Jehl, Paul Irish, Nicholas Zakas.
+- Pattern - http://subtlepatterns.com/
+- Font awesome icon - http://fortawesome.github.io/Font-Awesome/
+- Photos - http://pixabay.com
+- prettyPhoto - http://www.no-margin-for-errors.com
+- Isotope - http://isotope.metafizzy.co
+- Revolution Slider - http://eightmedia.github.com/hammer.js
+- Flex Slider - http://www.woothemes.com/flexslider/

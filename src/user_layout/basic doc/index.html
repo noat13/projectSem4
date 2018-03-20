@@ -1,0 +1,560 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<!-- Title here -->
+		<title>Documentation</title>
+		<!-- Description, Keywords and Author -->
+		<meta name="description" content="Your description">
+		<meta name="keywords" content="Your,Keywords">
+		<meta name="author" content="ResponsiveWebInc">
+		
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		
+		<!-- Styles -->
+		<!-- Bootstrap CSS -->
+		<link href="css/bootstrap.min.css" rel="stylesheet">
+		<!-- Font awesome CSS -->
+		<link href="css/font-awesome.min.css" rel="stylesheet">		
+		<!-- Custom CSS -->
+		<link href="css/style.css" rel="stylesheet">
+		
+		<!-- Favicon -->
+		<link rel="shortcut icon" href="#">
+	</head>
+	
+	<body>
+
+		
+		<div class="container">
+			<div class="main">
+				<div class="row">
+					<div class="col-md-2">
+					
+						<div class="sidebar">
+							<!-- Project name -->
+							<h3>CakeFactory</h3>
+							<ul>
+								<li><a href="#home">Home</a></li>
+								<li><a href="#files">File Structure</a></li>
+								<li><a href="#editing">Editing</a></li>
+								<li><a href="#add-colors">Add Colors</a></li>
+								<li><a href="#fonts">Fonts & Icons</a></li>
+								<li><a href="#add-page">Add New Page</a></li>
+								<li><a href="#navigation">Navigation</a></li>
+								<li><a href="#logo">Logo</a></li>
+								<li><a href="#main">Main Content</a></li>
+								<li><a href="#footer">Footer</a></li>
+								<li><a href="#elements">Elements</a></li>
+								<li><a href="#plugins">Plugins</a></li>
+							</ul>
+						</div>
+						
+					</div>
+					<div class="col-md-10">
+					
+						<div class="mainbar">
+						
+						
+						
+							<!-- Home -->
+							<h3 id="home">Documentation Overview</h3>
+								
+								<p>To edit this theme, basic knowledge about HTML, CSS, JS & Bootstrap is required. You can learn HTML, CSS and JS from <a href="http://www.w3schools.com/">W3Schools</a>. You can learn Bootstrap by visiting <a href="http://getbootstrap.com/">official site</a>.</p>
+								
+								
+								<div class="alert alert-danger"><strong>Note:</strong> Before you make any changes, take a backup of all files and folders.</div>
+							
+								
+							<hr />
+							
+
+
+<!----------------------------------------------------------------------------------------------------------->														
+							
+							
+							
+							<!-- File structure -->
+							<h3 id="files">File Structure</h3>
+							
+								<p>Theme consists of 3 main folders namely <em>css, img & js</em>. <br />
+								Inside <em>css</em> folder you will find styles used in this theme. <em>style.css</em> is the main stylesheet. <br />
+								Inside <em>img</em> folder you will find all images used in the theme.<br />
+								Inside <em>js</em> folder you will find all Javascript files. <em>custom.js</em> is the main js file.
+								</p>
+							
+							<hr />
+							
+
+
+<!----------------------------------------------------------------------------------------------------------->							
+
+							
+							
+							<!-- Editing -->
+							<h3 id="editing">Editing</h3>
+							
+								<p>To edit files you need any code editor. I recommend using Notepad++.</p>
+								
+								<strong>Add Custom Styles</strong>
+								<p>To add custom styles, create new style sheet in <em>css</em> folder. Include the style file before the closing tag of <code>&lt;head&gt;</code>. Make sure that you are including this new file after <em>style.css</em></p>
+								<p>If you want to add any extra CSS files, copy the file to <em>css</em> folder and link it before <em>style.css</em>.</p>
+								
+								<pre>
+&lt;link href=&quot;css/FILE-NAME.css&quot; rel=&quot;stylesheet&quot;&gt;									
+								</pre>
+								
+								<hr />
+								
+								<strong>Add Custom JavaScript</strong>
+								<p>To add JS, just create a new java script file in <em>js</em> folder. Include the newly created js file before the closing tag of <code>&lt;body&gt;</code>. Make sure that you are including this new file after <em>custom.js</em>. Alternatively you can also include Javascript code directly to the html file by enclosing the code in <code>&lt;script&gt; ...your code... &lt;/script&gt;</code> and adding this above the closing tag of <code>&lt;body&gt;</code></p>
+								<p>If you want to add any extra JS files, copy the file to <em>js</em> folder and link it before <em>custom.js</em>.</p>
+
+								<pre>
+&lt;script src=&quot;js/FILE-NAME.js&quot;&gt;&lt;/script&gt;								
+								</pre>
+							
+								<hr />
+								
+								<strong>Editing HTML</strong>
+								<p>Almost all html codes in this theme are neatly commented. All you need to do is to read the comment and modify the content based on your need.</p>
+								
+								<hr />
+							
+								<!-- XXXXXXXXXXXXXXXXXX -->
+								<!-- If the theme doesn't support LESS, then remove the blow para -->
+								<strong>LESS</strong>
+								<p>This theme supports LESS. To edit LESS, go to <em>less</em> folder, open <em>less-style.less</em> in your code editor. Make changes. Once done compile the file. You can use <em>WinLess</em> application (for Windows) to comple less files. <em>less-style.css</em> file will be generated as a result of compilation. You just need to copy this file to <em>css</em> folder replacing old file. </p>							
+							
+								<hr />
+								
+								
+							
+<!----------------------------------------------------------------------------------------------------------->
+
+
+							<!-- Add Colors -->
+							<!-- XXXXXXXXXXXXXXXXX -->
+							<!-- If the theme don't support multiple colors, remove this block -->
+							<h3 id="add-colors">Add Colors</h3>
+							
+								<p>This theme supports some multiple colors which you can add to texts and backgrounds. Here are the list of colors which this theme supports.</p>
+								<p><strong>White, Grey, Black, Red, Light Blue (lblue), Blue, Green, Orange, Purple, Rose, Brown.</strong></p>
+
+								<p>Add color to the text, specify color name to the <em>class</em> - <code>&lt;span class="lblue"&gt; ...Some Text... &lt;/span&gt;</code></p>
+								
+								<p>Add color to the background, specify color name along with the prefix <em>br-</em> to the <em>class</em> - <code>&lt;span class="br-lblue"&gt; ...Some Text... &lt;/span&gt;</code></p>
+
+								<hr />
+								
+<!----------------------------------------------------------------------------------------------------------->
+														
+			
+							<!-- Fonts -->
+							<h3 id="fonts">Fonts</h3>
+							
+								<p>This theme uses <a href="http://fortawesome.github.io/Font-Awesome/">Font Awesome Icons</a> for Icons and <a href="http://www.google.com/fonts">Google Web Fonts</a> for Fonts.</p>
+								
+								<!-- Icon font -->
+								<strong>Icon Font</strong>
+								<p>Refer <a href="http://fortawesome.github.io/Font-Awesome/">Font Awesome Icons</a> for list of fonts. To use any fonts in the theme, you need to use the following code.</p>
+								
+								<pre>
+/* Latest version */
+&lt;i class=&quot;fa fa-XXXX&quot;&gt;&lt;/i&gt;
+								</pre>
+								
+								
+								<hr />
+								
+								
+								<!-- Web Font -->
+								<strong>Web Font</strong>
+								<p>This theme uses <em>Droid Serif</em>, <em>Open Sans</em>, <em>Open Sans Condensed</em>. To add or change font visit <a href="http://www.google.com/fonts">Google Web Fonts</a>, Choose the font, Copy the <em>@import</em> code. Paste it in top of your <em>stylesheet</em>.</p>
+								
+								<pre>
+@import url(http://fonts.googleapis.com/css?family=Droid+Serif:400,700);
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400italic,400,300,600);
+@import url(http://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,700);
+								</pre>
+							
+								<hr />
+							
+							
+							
+<!----------------------------------------------------------------------------------------------------------->	
+
+
+
+							<!-- XXXXXXXXXXXXXXXXXXXX -->
+							<!-- If the theme is single page theme, then remove this. -->
+							<h3 id="add-page">Add New Page</h3>
+								<p>This theme comes with <em>0-base.html</em> file. This is the base file using which you can create you own page. Create a copy of the page, rename it and open in Text editor. Edit the title in <code>&lt;title&gt;</code> section. Change heading and add your content. Done.</p>
+								
+								<strong>Add Heading</strong>
+								<pre>
+&lt;!-- Banner Start --&gt;
+			
+&lt;div class=&quot;banner&quot;&gt;
+	&lt;!-- Heading --&gt;
+	&lt;h2 class=&quot;white&quot;&gt;<b>Page Title</b>&lt;/h2&gt;
+	&lt;ol class=&quot;breadcrumb&quot;&gt;
+		&lt;li&gt;&lt;a href=&quot;index.html&quot;&gt;Home&lt;/a&gt;&lt;/li&gt;
+		&lt;li class=&quot;active&quot;&gt;<b>Page Title</b>&lt;/li&gt;
+	&lt;/ol&gt;
+&lt;/div&gt;
+
+&lt;!-- Banner End --&gt;
+								</pre>
+								
+								<strong>Add Content</strong>
+								<pre>
+&lt;!-- Inner Content --&gt;
+&lt;div class=&quot;inner-page padd&quot;&gt;
+
+	<b>&lt;!-- Add your page content here --&gt;</b>
+		
+&lt;/div&gt;&lt;!-- / Inner Page Content End --&gt;	
+								</pre>
+								
+								<hr />
+							
+							
+<!----------------------------------------------------------------------------------------------------------->
+
+
+							<!-- Logo -->
+							<h3 id="logo">Logo</h3>
+								<p>Below code shows the markup of <em>Logo</em> area. You can also use images for logo. Just play with HTML. I reommend using PNG images for logo.</p>
+								
+								<pre>
+&lt;!-- Logo area --&gt;
+&lt;div class=&quot;logo&quot;&gt;
+	&lt;img class=&quot;img-responsive&quot; src=&quot;<b>IMAGE_LINK</b>&quot; alt=&quot;&quot; /&gt;
+	&lt;!-- Heading --&gt;
+	&lt;h1&gt;<b>LOGO TITLE</b>&lt;/h1&gt;
+&lt;/div&gt;
+								</pre>
+								
+								<hr />
+
+<!----------------------------------------------------------------------------------------------------------->
+
+
+							<!-- Navigation -->
+							<h3 id="navigation">Navigation</h3>
+								<p>Below code shows the markup of <em>Navigation</em> bar.</p>
+								
+								<pre>
+&lt;!-- Page Navigation Menu --&gt;
+&lt;ul class=&quot;nav navbar-nav&quot;&gt;
+	&lt;li&gt;&lt;a href=&quot;<b>#</b>&quot;&gt;&lt;img src=&quot;<b>IMAGE_LINK</b>&quot; class=&quot;img-responsive&quot; alt=&quot;&quot; /&gt; <b>LINK1</b>&lt;/a&gt;&lt;/li&gt;
+	&lt;li&gt;&lt;a href=&quot;<b>#</b>&quot;&gt;&lt;img src=&quot;<b>IMAGE_LINK</b>&quot; class=&quot;img-responsive&quot; alt=&quot;&quot; /&gt; <b>LINK2</b>&lt;/a&gt;&lt;/li&gt;
+	&lt;li class=&quot;dropdown&quot;&gt;
+		&lt;a href=&quot;#&quot; class=&quot;dropdown-toggle&quot; data-toggle=&quot;dropdown&quot;&gt;&lt;img src=&quot;<b>IMAGE_LINK</b>&quot; class=&quot;img-responsive&quot; alt=&quot;&quot; /&gt; <b>MAIN LINK</b> &lt;b class=&quot;caret&quot;&gt;&lt;/b&gt;&lt;/a&gt;
+		&lt;ul class=&quot;dropdown-menu&quot;&gt;
+			&lt;li&gt;&lt;a href=&quot;<b>#</b>&quot;&gt;<b>SUB_LINK1</b>&lt;/a&gt;&lt;/li&gt;
+			&lt;li&gt;&lt;a href=&quot;<b>#</b>&quot;&gt;<b>SUB_LINK2</b>&lt;/a&gt;&lt;/li&gt;
+		&lt;/ul&gt;
+	&lt;/li&gt;
+&lt;/ul&gt;
+								</pre>
+								
+								<strong>Navigation Dropdown</strong>
+								<p>Below code shows the markup of Dropdown menu for navigation bar.</p>
+							
+								<pre>
+&lt;!-- Dropdown Menu --&gt;
+&lt;li class=&quot;dropdown&quot;&gt;
+	&lt;a href=&quot;#&quot; class=&quot;dropdown-toggle&quot; data-toggle=&quot;dropdown&quot;&gt;&lt;img src=&quot;<b>IMAGE_LINK</b>&quot; class=&quot;img-responsive&quot; alt=&quot;&quot; /&gt; <b>MAIN LINK</b> &lt;b class=&quot;caret&quot;&gt;&lt;/b&gt;&lt;/a&gt;
+	&lt;ul class=&quot;dropdown-menu&quot;&gt;
+		&lt;li&gt;&lt;a href=&quot;<b>#</b>&quot;&gt;<b>SUB_LINK1</b>&lt;/a&gt;&lt;/li&gt;
+		&lt;li&gt;&lt;a href=&quot;<b>#</b>&quot;&gt;<b>SUB_LINK2</b>&lt;/a&gt;&lt;/li&gt;
+		&lt;li&gt;&lt;a href=&quot;<b>#</b>&quot;&gt;<b>SUB_LINK3</b>&lt;/a&gt;&lt;/li&gt;
+		&lt;li&gt;&lt;a href=&quot;<b>#</b>&quot;&gt;<b>SUB_LINK4</b>&lt;/a&gt;&lt;/li&gt;
+	&lt;/ul&gt;
+&lt;/li&gt;
+								</pre>
+								
+								<hr />
+
+
+
+<!----------------------------------------------------------------------------------------------------------->
+
+
+							<!-- Main content -->
+							<h3 id="main">Main Content</h3>
+								<p>Below code shows the markup of <em>Main Content</em> area.</p>
+								
+								<pre>
+&lt;!-- Page Banner Content --&gt;
+&lt;!-- Inner Content --&gt;
+&lt;div class=&quot;inner-page padd&quot;&gt;
+
+	<b>&lt;!-- Add Your Main Content Here --&gt;</b>
+		
+&lt;/div&gt;&lt;!-- / Inner Page Content End --&gt;	
+								</pre>
+								<hr />
+
+<!----------------------------------------------------------------------------------------------------------->
+
+
+							<!-- Footer -->
+							<h3 id="footer">Footer</h3>
+								<p>Below code shows the markup of <em>Footer</em> blocks.</p>
+								
+								<pre>
+&lt;!-- Footer Start --&gt;
+			
+&lt;div class=&quot;footer&quot;&gt;
+	&lt;!-- Footer widget --&gt;
+	&lt;div class=&quot;footer-widget&quot;&gt;
+		&lt;!-- Heading --&gt;
+		&lt;h4&gt;<b>YOUR HEADING</b>&lt;/h4&gt;
+		<b>&lt;!-- Add Your Content Here --&gt;</b>
+	&lt;/div&gt; &lt;!--/ Footer widget end --&gt;
+&lt;/div&gt;
+
+&lt;!-- Footer End --&gt;
+								</pre>
+								
+								<strong>Copyright</strong>
+								<p>Below code shows the markup of <em>Copyright</em> Section.<p>
+								
+								<pre>
+&lt;!-- Copyright --&gt;
+&lt;div class=&quot;footer-copyright&quot;&gt;
+	&lt;!-- Paragraph --&gt;
+	&lt;p&gt;&amp;copy; Copyright 2014 &lt;a href=&quot;<b>#</b>&quot;&gt;<b>Company Name</b>&lt;/a&gt;&lt;/p&gt;
+&lt;/div&gt;
+								</pre>
+								
+								<hr />
+								
+								
+
+<!----------------------------------------------------------------------------------------------------------->
+
+
+							<!-- Elements -->
+							
+							<h3 id="elements">Elements</h3>
+								<p>Here are the customization information for some complex elements.</p>
+								
+								<strong>Navigation Drop Down Menu</strong>
+								<p>Code for page navigation dropdown menu.</p>
+								<img class="img-responsive" src="img/nav-dropdown.png" alt="" />
+								<pre>
+&lt;ul class=&quot;dropdown-menu dropdown-md&quot;&gt;
+	&lt;li&gt;
+		&lt;!-- Menu Item --&gt;
+		&lt;div class=&quot;menu-item&quot;&gt;
+			&lt;!-- Heading --&gt;
+			&lt;h3&gt;<b>MENU HEADING</b>&lt;/h3&gt;
+			&lt;!-- Image --&gt;
+			&lt;img src=&quot;<b>IMAGE_LINK</b>&quot; class=&quot;img-responsive&quot; alt=&quot;&quot; /&gt;
+			&lt;!-- Paragraph --&gt;
+			&lt;p&gt;<b>YOUR PARAGRAPH</b>&lt;/p&gt;
+			&lt;!-- Button --&gt;
+			&lt;a href=&quot;<b>#</b>&quot; class=&quot;btn btn-<b>COLOR</b> btn-xs&quot;&gt;<b>MENU BUTTON</b>&lt;/a&gt;
+		&lt;/div&gt;
+		<b>&lt;!-- Add More... --&gt;</b>
+	&lt;/li&gt;
+&lt;/ul&gt;
+								</pre>
+								
+								<hr />
+
+								<strong>Food Menu List</strong>
+								<p>Code for index page food menu list.</p>
+								<img class="img-responsive" src="img/menu-list.png" alt="" />
+								<pre>
+&lt;!-- Menu item details --&gt;
+&lt;div class=&quot;menu-details br-<b>COLOR</b>&quot;&gt;
+	&lt;!-- Menu list --&gt;
+	&lt;ul class=&quot;list-unstyled&quot;&gt;
+		&lt;li&gt;
+			&lt;div class=&quot;menu-list-item&quot;&gt;
+				&lt;!-- Icon --&gt;
+				&lt;i class=&quot;fa fa-angle-right&quot;&gt;&lt;/i&gt; &lt;a href=&quot;<b>#</b>&quot;&gt;<b>ITEM NAME</b>&lt;/a&gt; 
+				&lt;!-- Price badge --&gt;
+				&lt;span class=&quot;pull-right&quot;&gt;<b>ITEM PRICE</b>&lt;/span&gt;
+				&lt;div class=&quot;clearfix&quot;&gt;&lt;/div&gt;
+			&lt;/div&gt;
+		&lt;/li&gt;
+		<b>&lt;!-- Add More From Here --&gt;</b>
+	&lt;/ul&gt;
+&lt;/div&gt;&lt;!-- / Menu details end --&gt;
+								</pre>
+								
+								<hr />
+
+								<strong>Food Offer Price</strong>
+								<p>Code for index page food offer Price content.</p>
+								<img class="img-responsive" src="img/offer.png" alt="" />
+								<pre>
+&lt;!-- Pricing list Item --&gt;
+&lt;div class=&quot;pricing-item&quot;&gt;
+	&lt;!-- Image --&gt;
+	&lt;a href=&quot;#&quot;&gt;&lt;img class=&quot;img-responsive img-thumbnail&quot; src=&quot;<b>IMAGE_LINK</b>&quot; alt=&quot;&quot; /&gt;&lt;/a&gt;
+	&lt;!-- Pricing item details --&gt;
+	&lt;div class=&quot;pricing-item-details&quot;&gt;
+		&lt;!-- Heading --&gt;
+		&lt;h3&gt;&lt;a href=&quot;#&quot;&gt;<b>YOUR HEADING</b>&lt;/a&gt;&lt;/h3&gt;
+		&lt;!-- Paragraph --&gt;
+		&lt;p&gt;<b>YOUR PARAGRAPH...</b>&lt;/p&gt;
+		&lt;!-- Buy link --&gt;
+		&lt;a class=&quot;btn btn-<b>COLOR</b> pull-right&quot; href=&quot;#&quot;&gt;Order now&lt;/a&gt;
+		&lt;div class=&quot;clearfix&quot;&gt;&lt;/div&gt;
+	&lt;/div&gt;
+	&lt;!-- Tag --&gt;
+	&lt;span class=&quot;hot-tag br-<b>COLOR</b>&quot;&gt;<b>PRICE</b>&lt;/span&gt;
+	&lt;div class=&quot;clearfix&quot;&gt;&lt;/div&gt;
+&lt;/div&gt;
+								</pre>
+								
+								<hr />
+
+								<strong>Gallery</strong>
+								<p>Code for gallery page content.</p>
+								<img class="img-responsive" src="img/gallery.png" alt="" />
+								<pre>
+&lt;!-- Separate gallery element --&gt;
+&lt;div class=&quot;element&quot;&gt;
+	&lt;!-- Image --&gt;
+	&lt;img class=&quot;img-responsive img-thumbnail&quot; src=&quot;<b>IMAGE_LINK</b>&quot; alt=&quot;&quot;/&gt;
+	&lt;!-- Gallery Image Hover Effect --&gt;
+	&lt;span class=&quot;gallery-img-hover&quot;&gt;&lt;/span&gt;
+	&lt;!-- Gallery Image Hover Icon --&gt;
+	&lt;a href=&quot;<b>IMAGE_LINK</b>&quot; class=&quot;gallery-img-link&quot;&gt;
+		&lt;i class=&quot;fa fa-search-plus hover-icon icon-left&quot;&gt;&lt;/i&gt;
+	&lt;/a&gt;
+	&lt;a href=&quot;<b>#</b>&quot;&gt;
+		&lt;i class=&quot;fa fa-link hover-icon icon-right&quot;&gt;&lt;/i&gt;
+	&lt;/a&gt;
+&lt;/div&gt;
+								</pre>
+								
+								<hr />
+
+								<strong>Shopping Items</strong>
+								<p>Code for items page content.</p>
+								<img class="img-responsive" src="img/items.png" alt="" />
+								<pre>
+&lt;!-- Shopping items --&gt;
+&lt;div class=&quot;shopping-item&quot;&gt;
+	&lt;!-- Image --&gt;
+	&lt;a href=&quot;#&quot;&gt;&lt;img class=&quot;img-responsive&quot; src=&quot;<b>IMAGE_LINK</b>&quot; alt=&quot;&quot; /&gt;&lt;/a&gt;
+	&lt;!-- Shopping item name / Heading --&gt;
+	&lt;h4 class=&quot;pull-left&quot;&gt;&lt;a href=&quot;<b>#</b>&quot;&gt;<b>YOUR HEADING</b>&lt;/a&gt;&lt;/h4&gt;
+	&lt;span class=&quot;item-price pull-right&quot;&gt;<b>PRICE</b>&lt;/span&gt;
+	&lt;div class=&quot;clearfix&quot;&gt;&lt;/div&gt;
+	&lt;!-- Paragraph --&gt;
+	&lt;p&gt;<b>YOUR PARAGRAPH...</b>&lt;/p&gt;
+	&lt;!-- Buy now button --&gt;
+	&lt;div class=&quot;visible-xs&quot;&gt;
+		&lt;a class=&quot;btn btn-<b>COLOR</b> btn-sm&quot; href=&quot;<b>#</b>&quot;&gt;Buy Now&lt;/a&gt;
+	&lt;/div&gt;
+	&lt;!-- Shopping item hover block &amp; link --&gt;
+	&lt;div class=&quot;item-hover br-<b>COLOR</b> hidden-xs&quot;&gt;&lt;/div&gt;
+	&lt;a class=&quot;link hidden-xs&quot; href=&quot;#&quot;&gt;Add to cart&lt;/a&gt;
+	&lt;!-- Hot tag --&gt;
+	&lt;span class=&quot;hot-tag br-<b>COLOR</b>&quot;&gt;Hot&lt;/span&gt;
+&lt;/div&gt;
+								</pre>
+								
+								<hr />
+
+								<strong>Blog</strong>
+								<p>Code for blog page content.</p>
+								<img class="img-responsive" src="img/blog.png" alt="" />
+								<pre>
+&lt;!-- Entry is the one post for each user --&gt;
+&lt;div class=&quot;entry&quot;&gt;
+	&lt;!-- Post Images --&gt;
+	&lt;div class=&quot;blog-img pull-left&quot;&gt;
+		&lt;img src=&quot;<b>IMAGE_LINK</b>&quot; class=&quot;img-responsive img-thumbnail&quot; alt=&quot;&quot; /&gt;
+	&lt;/div&gt;
+	&lt;!-- Meta for this block --&gt;
+	&lt;div class=&quot;meta&quot;&gt;
+		&lt;i class=&quot;fa fa-calendar&quot;&gt;&lt;/i&gt;&amp;nbsp; <b>DATE</b>
+		&lt;span class=&quot;pull-right&quot;&gt;&lt;i class=&quot;fa fa-comment&quot;&gt;&lt;/i&gt; &lt;a href=&quot;#&quot;&gt;&amp;nbsp;<b>NUMBER</b> Comments&lt;/a&gt;&lt;/span&gt;
+	&lt;/div&gt;
+	&lt;!-- Heading of the  post --&gt;
+	&lt;h3&gt;&lt;a href=&quot;#&quot;&gt;<b>YOUR HEADING</b>&lt;/a&gt;&lt;/h3&gt;
+	&lt;hr /&gt;&lt;!-- Horizontal line --&gt;
+	&lt;!-- Paragraph --&gt;
+	&lt;p&gt;<b>YOUR PARAGRAPH...</b>&lt;/p&gt;
+	&lt;div class=&quot;clearfix&quot;&gt;&lt;/div&gt;
+&lt;/div&gt;
+								</pre>
+								
+								<hr />
+
+
+
+<!----------------------------------------------------------------------------------------------------------->
+
+
+							
+							<!-- XXXXXXXXXXXXXXXXXXXX -->
+							<!-- Remove the plugins which are not used in this theme -->
+							<!-- Plugins used -->
+							<h3 id="plugins">Plugins</h3>
+							
+								<p>This theme uses following plugins. To customize the plugins, you need to refer the official Plugin documentation found in below links.</p>
+								<ul>
+									<li><a href="http://getbootstrap.com">Bootstrap</a> - Whole theme is made using Bootstrap.</li>
+									
+									<li><a href="http://fortawesome.github.io/Font-Awesome/">Font Awesom Icon</a> - For Vector Icons.</li>
+									
+									<li><a href="http://www.no-margin-for-errors.com/projects/prettyphoto-jquery-lightbox-clone/">PrettyPhoto</a> - Gallery & Portfolio section Photos lightbox.</li>
+									
+									<li><a href="http://isotope.metafizzy.co/">Isotope</a> - Portfolio & Gallery section image filtering.</li>
+									
+									<li><a href="http://www.themepunch.com/codecanyon/revolution/liveguide/01.Sample-Boxed.html">Revolution slider</a> - Revolution slider - <a href="http://codecanyon.net/item/slider-revolution-responsive-jquery-plugin/2580848">Official page</a>.</li>
+									
+									<li><a href="http://www.woothemes.com/flexslider/">Flex Slider</a> - Popular Slider plugin.</li>
+									
+								</ul>
+							
+							
+<!----------------------------------------------------------------------------------------------------------->														
+							
+							
+							<!-- Changelog 
+							<h3 id="changelog">Changelog</h3>
+							
+								<strong>Version 1.0:</strong>
+								<ul>
+									<li>Initial Release.</li>
+								</ul>
+							-->
+							
+							
+						</div>
+						
+					</div>
+				</div>
+			</div>
+			<br />
+			<div class="footer text-center">
+				Copyright 2013 - <a href="http://responsivewebinc.com">Responsive Web Inc</a>
+			</div>
+		</div>
+		
+		
+		<!-- Javascript files -->
+		<!-- jQuery -->
+		<script src="js/jquery.js"></script>
+		<!-- Bootstrap JS -->
+		<script src="js/bootstrap.min.js"></script>
+		<!-- Respond JS for IE8 -->
+		<script src="js/respond.min.js"></script>
+		<!-- HTML5 Support for IE -->
+		<script src="js/html5shiv.js"></script>
+		<!-- Custom JS -->
+		<script src="js/custom.js"></script>
+	</body>	
+</html>
